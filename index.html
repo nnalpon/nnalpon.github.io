@@ -4,7 +4,13 @@
     <title> CV </title>
   </head>
 
-  <?php include 'pro_experience.php'; ?>
+  <div id="proExperience"></div>
+  
+  <script type="text/javascript">
+    $(function(){
+        $('#proExperience').load( './proExperience.html' );
+    });
+  </script>
 
   
   <div>
