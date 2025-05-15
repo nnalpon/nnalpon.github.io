@@ -12,45 +12,7 @@
   <div class="skills" include="./skills.html"></div>
 
 
-  <div>
-    <h1>Research</h1>
-
-    <div>
-      <h2>Postdoctoral - Automated formal verification of quantum programs</h2>
-      <p>
-	Qbricks is an innovative open-source framework for the automated formal verification of quantum programs. It facilitates the development of quantum circuit building programs that can be specified with their input/output functions and resource requirements. The framework is based on the Why3 deductive verification environment, providing a robust interface that allows a high degree of automation in the verification of Qbricks specifications. To date, the Qbricks framework has successfully enabled the verified implementation of several landmark algorithms from the literature, including the Deutsch-Jozsa algorithm, quantum phase estimation, Grover’s search algorithm, and Shor’s order-finding algorithm. However, it is important to note that Qbricks does not currently support quantum algorithms that involve measurements, which also limits the handling of classical values obtained from measurements. During my postdoctoral position, I focused on extending Qbricks to include measurement capabilities.
-      </p>
-    </div>
-
-    <div>
-      <h2>PhD - Towards the verification of user interface description languages</h2>
-      <p>
-	User Interface Description Languages (UIDLs) are languages designed to facilitate the design of user interfaces. They distinguish the design of the user interface from the design of the rest of the program and provide an appropriate syntax for describing user interfaces. However, these languages are used in critical contexts such as aerospace or medical despite their unreliable nature for such a context. In this thesis we are interested in how we can use UIDLs specialised for the description of graphical user interfaces in a critical context. For this purpose, we decide to study the formalisation of the semantics of these languages. The semantics of UIDLs have been little studied in the literature, although their formalisation can allow the verification of all describable interfaces. We present properties common to UIDLs and finally question their formalisation. To answer this question, we propose the use of Milner’s bigraphs, a mathematical framework that allows to model a system evolving in time and space. We show that bigraphs are suitable for formalising the semantics of UIDLs and define a UIDL based on bigraph theory. Such a UIDL can be used as an intermediate language to compile other UIDLs and thus allow the verification of graphical interfaces.We tried this approach by compiling the language Smala, a
-      </p>
-    </div>
-
-    <div>
-      <h2>Mobility during PhD – Spatial Logic on Closure Space for Bigraphs</h2>
-      <p>
-	BigraphER (Bigraph Evaluator and Rewriting), a rewriting and analysis engine for bigraphs, is one of the main contributions of the Formal Analysis, Theory and Algorithms (FATA) team, experts in bigraph theory. BigraphER allows us to define and simulate conditional bigraphs, which is an extension of bigraph theory with conditional rewriting rules. However, the expressiveness of these conditional rules is currently limited, and the FATA team is trying to solve this problem. One way to do this is to use logic to define the conditions. This logic needs to be expressive enough and well equipped (e.g. available solvers). BiLog is a spatial logic that allows you to define all the properties you want on bigraphs. The use of this logic is unfortunately not possible, because its decidability remains an open question and no solver is available yet. Spatial logic on closure space seems to be a promising way to extend conditional bigraphs. It has already been used in the literature for model checking, and solvers are available. My three month stay in Glasgow allowed me to get some first results on the instantiation of Spatial Logic on Closure Space for bigraphs.
-      </p>
-    </div>
-    
-    <div>
-      <h2>Internship - Oracle compilation for quantum computing</h2>
-      <p>
-	Quantum computing uses a special kind of memory in which information about the state of quantum particles is encoded. The laws of quantum mechanics make it possible to model the behaviour of such a system, and many so-called ”quantum” algorithms have been developed to exploit the non-classical behaviour of this type of memory to efficiently solve a large number of classical problems. When interacting with quantum memory, one must encode the structure of the classical problem (the integer to be manipulated, the graph to be traversed, the matrix to be processed, etc.) into elementary quantum instructions. This is what we call the oracle. The problem we face is that quantum memory accepts a priori only reversible operations: it is therefore a matter of translating a classical description into a sequence of reversible operations. To do this, an abstract machine, rewriting rules and possible optimisations have been defined in previous work. During this internship I was happy to prove the soundness of the optimisation rules used to reduce the sequence of reversible operations.
-      </p>
-    </div>
-
-
-    <div>
-      <h2>Internship – Compiling Lustre models to parallel code</h2>
-      <p>
-	The compilation of Lustre models into parallel code is aimed at running synchronous code on a multi-core architecture. Synchronous languages have a clock system that allows to formalise information about the execution frequency of a task and to estimate the execution time of operations. The theory of synchronous languages allows us to express two types of tasks, the long tasks and the short tasks. Some programs contain long tasks that are rarely executed and short tasks that are often executed. In this type of programme, the logical time corresponding to task activation must be long enough to contain the long tasks and short enough to execute the short tasks often. Therefore, to reduce the activation time, it might be interesting to run these long tasks alongside the short ones. Prelude is a compiler that allows parallel code to be generated for synchronous models, using a preemptive operating system to schedule tasks. These systems have a tendency to cut the execution of long tasks in order to give priority to more essential tasks. In this lab we ask whether it is possible to compile Lustre models into parallel code without interrupting the execution of long tasks. To answer this question, we extended heptagon, a synchronous language, with annotations and a parallel code generator that allows to select and execute operations in different cores.
-      </p>
-    </div>
-  </div>
+  <div class="research" include="./research.html"></div>
 
   <div>
     <h1>Talks</h1>
