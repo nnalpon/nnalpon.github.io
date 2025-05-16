@@ -21,6 +21,11 @@
             return;
         }
         const text = await response.text();
+	var link = document.createElement("link");
+            link.rel = "stylesheet";
+            link.type = "text/css";
+            link.href = "./proExperience.css"; // Path to your CSS file
+            document.head.appendChild(link);
         elem.innerHTML = text;
         // reinject all <script> tags
         // for each <script> tag on injected html

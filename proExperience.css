@@ -3,9 +3,9 @@ table.exptab {
 }
 
 th.expcell {
-    text-align: right;
+    text-align: left;
 }
 
 td.expcell {
-    background-color: red;
+    background-color: tomato;
 }
