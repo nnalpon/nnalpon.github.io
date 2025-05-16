@@ -1,0 +1,11 @@
+table.exptab {
+    width:80%;
+}
+
+th.expcell {
+    text-align: left;
+}
+
+td.expcell {
+    background-color: tomato;
+}
