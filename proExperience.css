@@ -1,9 +1,9 @@
 table.exptab {
-    width:80%;
+    width:100%;
 }
 
 th.expcell {
-    text-align: left;
+    text-align: right;
 }
 
 td.expcell {
